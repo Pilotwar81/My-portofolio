@@ -1,0 +1,54 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Tahoma;
+  background: hsl(0, 0%, 0%);
+}
+
+.font1{
+    font-size: 120px;
+    text-align: center;
+    font-style: bold;
+    color:rgb(255, 255, 255)
+
+}
+
+.font2{
+    font-size: 30px;
+    text-align: center;
+    color:rgb(255, 255, 255)
+
+}
+
+.link {
+  font-size: 60px;
+  text-align: center;
+  font-style: bold;
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+}
+.link:before {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  transform: translateX(-100%);
+  transition: 0.3s;
+  font-size: 100px;
+  text-align: center;
+  margin: auto
+  
+}
+.link span {
+  display: block;
+  transition: 0.3s;
+}
+.link:hover:before {
+  transform: translateX(0);
+}
+.link:hover span {
+  transform: translateX(100%);
+}
