@@ -64,12 +64,11 @@ Firstly:
 It is a html form which I made it look better using CSS and this uses JavaScript and STMP server so any mailing website doesn’t think that this is a spam and after the message is sent a pop-up shows saying the message is sent successfully: 
 
 Secondly:
-By dragging your mouse over any of these inputs and button (Go) the color will change: 
+By dragging your mouse over any of these inputs and button (Go) the color will change
 
 Thirdly :
-The message when sent it comes to my email like that : 
+The message when sent it comes to my email like that  
 
-Blacked because I don’t want spamming 
 
 
 
