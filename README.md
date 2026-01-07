@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>My Portfolio README</title>
-</head>
 <body style="font-family: Arial, sans-serif; line-height: 1.6;">
 
 <h1 align="center">🌟 My Portfolio Website 🚀</h1>
